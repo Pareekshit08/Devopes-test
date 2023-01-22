@@ -1,0 +1,59 @@
+body{
+    background-image: url(images/lines.jpg);
+    background-size: cover;
+   
+
+}
+.navbar{
+   background-color: rgba(255, 255, 255, 0.598);
+}
+.navbar a,.navbar a:hover{
+font-size:1.2rem;
+font-weight: bold;
+}
+.navbar-brand {
+    font-family: "Audiowide", sans-serif;
+    padding-left:4rem;
+  }
+
+.inside_body{
+    width: 80%; 
+    color:rgb(1, 0, 5);
+    background-image: url(images/slide.jpg);
+    background-size: cover;
+    border-radius: 4rem;
+    margin: auto;
+    box-shadow: 10px 0px 5px rgb(154, 146, 146);
+}
+.inner_bod{
+ padding-top: 5em;
+ width:60%;
+ margin:auto;
+ font-size: bold;
+}
+.inner_bod h1{
+    font-family: 'Lobster', cursive;
+    font-size: 4rem;
+}
+
+.explore button,.unexplore button{
+    font-size: 1.2rem;    
+    font-weight:1rem;   
+    color: black;
+    padding-left:2rem;
+    padding-right: 2rem;
+    border-radius: 50px;
+}
+
+.col-4{
+    overflow: scroll;
+}
+
+.cars{
+    background-color: white;
+    text-align: center;
+    height: 498.px rem;
+}
+.cars img{
+    width:25%;
+}
