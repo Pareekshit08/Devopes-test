@@ -32,7 +32,7 @@ font-weight: bold;
  font-size: bold;
 }
 .inner_bod h1{
-    font-family: 'Lobster', cursive;
+    /* font-family: 'Lobster', cursive; */
     font-size: 4rem;
 }
 
@@ -50,10 +50,20 @@ font-weight: bold;
 }
 
 .cars{
-    background-color: white;
+    background-color: rgba(200, 209, 226, 0.705);
     text-align: center;
     height: 498.px rem;
+    border-radius:14px;
+    
 }
 .cars img{
     width:25%;
+}
+
+/* tech */
+.tech{
+    padding-left:4rem;
+}
+.tech h1,.row h1{
+    font-family: "Audiowide", sans-serif;
 }
