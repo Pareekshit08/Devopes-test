@@ -52,7 +52,7 @@ body {
 	background-color: grey;
   }
 
-@media  screen and (max-width:400px)  {
+@media  screen and (max-width:4000px)  {
 .start{
 	font-size:4rem;
 }
