@@ -27,7 +27,14 @@ function animatePress(currentColour){
         $(currentColour).removeClass("pressed");  
     },"100");
 }
+
 var started=false;
+$(".start").click(()=>{
+if(!started){
+    nextSequence();
+    started=true;
+}
+});
 $(document).keydown(function (){
 if(!started){
     nextSequence();
