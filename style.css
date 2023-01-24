@@ -1,8 +1,7 @@
-body{
+.starter{
     background-image: url(images/lines.jpg);
     background-size: cover;
-   
-
+    border-bottom: 5rem;
 }
 .navbar{
    background-color: rgba(255, 255, 255, 0.598);
@@ -50,20 +49,39 @@ font-weight: bold;
 }
 
 .cars{
-    background-color: rgba(200, 209, 226, 0.705);
+    background-color: rgba(255, 255, 255, 0.705);
     text-align: center;
     height: 498.px rem;
     border-radius:14px;
-    
+    margin:2rem;
 }
 .cars img{
     width:25%;
 }
 
+
+/* carousel */
+
+.carousel{
+    padding:2rem;
+}
+    
 /* tech */
 .tech{
-    padding-left:4rem;
+    padding: 4rem;
 }
 .tech h1,.row h1{
     font-family: "Audiowide", sans-serif;
+}
+
+.footer
+{
+    background: rgb(2,0,36);
+    background: linear-gradient(159deg, rgba(2,0,36,1) 0%, rgba(54,124,149,1) 0%, rgba(129,118,209,1) 22%, rgba(108,133,216,1) 46%, rgba(0,212,255,1) 85%); 
+    text-align: center;
+    font-size: 2rem;
+}
+.footer a i{
+    color: rgb(251, 251, 251);
+    padding: 1rem 2rem;
 }
