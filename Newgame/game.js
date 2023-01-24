@@ -31,6 +31,7 @@ function animatePress(currentColour){
 var started=false;
 $(".start").click(()=>{
 if(!started){
+    $(".start").slideUp();
     nextSequence();
     started=true;
 }
@@ -58,5 +59,6 @@ function checkAnswer(currentLevel){
         userClickedPattern=[];
         started=false;
         $("h1").text("Game over restart the game press any key");
+        $(".start").slideDown();
     }
 }
