@@ -14,7 +14,9 @@ font-weight: bold;
     font-family: "Audiowide", sans-serif;
     padding-left:4rem;
   }
-
+.in_body{
+    margin-top: 3rem;
+}
 .inside_body{
     width: 80%; 
     color:rgb(1, 0, 5);
